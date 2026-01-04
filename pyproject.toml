@@ -1,0 +1,17 @@
+[project]
+name="One"
+version="1.0.0"
+description="Project where we go deeper and deeper"
+requires-python = "~=3.12.0"
+readme = "README.md"
+
+dependencies = [
+    "requests >=2.32.5",
+    "PyYAML >= 6.0.3"
+]
+
+
+[tool.ruff]
+line-length=150
+target-version ="py311"
+exclude = ["temp/*"]
