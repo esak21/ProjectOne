@@ -17,5 +17,3 @@ data = responses.json()
 
 print(data)
 
-
-Esak26^Winter.com
